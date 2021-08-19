@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  line-height: 16px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+}
+
+body {
+  background: rgb(243, 243, 253) !important;
+}
+
+/* Section 1 */
+#meme,
+#buddy {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.section_1 {
+  background-color: rgb(50, 52, 132);
+  color: white;
+  border-radius: 25px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.userProfile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dave_johnson,
+.list_name {
+  font-size: 16px;
+}
+
+.name {
+  color: rgb(183, 186, 232);
+  font-size: x-small;
+}
+
+.fa-user-circle {
+  font-size: 45px;
+}
+
+.fa-chevron-down {
+  background-color: rgb(148, 150, 255);
+  padding: 6px 7px 6px 7px;
+  margin-top: 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: x-small;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-home {
+  font-size: larger;
+  padding-left: 3px;
+  color: white;
+}
+
+.fa-chevron-right {
+  padding: 3px 0px 10px 0px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: rgb(183, 186, 232);
+  font-size: xx-small;
+}
+
+.fa-video,
+.fa-share-square,
+.fa-photo-video,
+.fa-users,
+.fa-user-tie,
+.fa-flag,
+.fa-cog,
+.fa-sign-out-alt {
+  font-size: larger;
+  padding-left: 3px;
+  color: rgb(183, 186, 232);
+}
+
+.trail {
+  padding: 20px 10px 0px 10px;
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+.trail p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.free_trail {
+  display: flex;
+  justify-content: center;
+}
+
+.free_trail_img {
+  width: 200px;
+  height: 180px;
+  justify-items: center;
+  border-radius: 30px 30px 0px 0px;
+}
+
+/* Section 2 */
+/* Row 1 */
+.dashboard_top_row {
+  background-color: rgb(50, 52, 132);
+  color: white;
+  height: 100px;
+  padding-top: 32px;
+  border-radius: 25px;
+}
+
+.dashboard_top_row p {
+  font-size: larger;
+  padding-left: 30px;
+  line-height: 10px;
+}
+
+/* Row 2 */
+.tredings_1,
+.tredings_2,
+.tredings_3 {
+  display: flex;
+  padding: 30px 20px 15px 10px;
+  border-radius: 20px;
+}
+
+.tredings_1 {
+  border: 2px solid rgb(216, 228, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tredings_2 {
+  border: 2px solid rgb(254, 244, 195);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tredings_3 {
+  border: 2px solid rgb(236, 219, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.meme_icon_1,
+.meme_icon_2,
+.meme_icon_3 {
+  padding: 10px 8px 0px 8px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.meme_icon_1 {
+  background: rgb(216, 228, 255);
+}
+
+.meme_icon_2 {
+  padding: 8px 10px 0px 8px !important;
+  background: rgb(254, 244, 195);
+}
+
+.meme_icon_3 {
+  background: rgb(236, 219, 255);
+}
+
+.meme_heading_1,
+.meme_heading_2,
+.meme_heading_3 {
+  padding: 5px 0px 5px 2px;
+  text-align: center;
+  font-size: small;
+}
+
+.meme_heading_1 {
+  color: rgb(129, 168, 255);
+}
+
+.meme_heading_2 {
+  color: rgb(249, 211, 102);
+}
+
+.meme_heading_3 {
+  color: rgb(185, 147, 229);
+}
+
+.fa-rocket {
+  color: rgb(129, 168, 255);
+  font-size: 25px;
+}
+
+.fa-fire-alt {
+  color: rgb(249, 211, 102);
+  font-size: 25px;
+}
+
+.fa-chart-line {
+  color: rgb(185, 147, 229);
+  font-size: 25px;
+}
+
+.readings {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(216, 228, 255);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.graphical {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.period {
+  padding: 204px 0px 0px 0px;
+}
+
+.period_1 {
+  background: rgb(255, 255, 255);
+  color: rgb(50, 52, 132);
+  font-size: smaller;
+  text-align: center;
+  padding: 4px 15px 4px 15px;
+  border-radius: 20px;
+}
+
+.period_2,
+.period_3,
+.period_4 {
+  background: rgb(245, 245, 245);
+  color: rgb(171, 169, 169);
+  font-size: smaller;
+  text-align: center;
+  padding: 4px 15px 4px 15px;
+  border-radius: 20px;
+}
+
+.create_new_sec {
+  margin-top: 1px;
+  padding: 20px;
+  background: linear-gradient(rgb(255, 203, 157), rgb(255, 236, 155));
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.new_gif,
+.new_meme,
+.new_video {
+  background: white;
+  border-radius: 10px;
+}
+
+.new_sec_name {
+  padding-top: 15px;
+  font-size: x-small;
+  color: rgb(86, 86, 88);
+}
+
+.gif_img {
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.meme_img {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.video_img {
+  width: 45px;
+  height: 45px;
+  padding: 3px;
+}
+
+.weekly_creation {
+  margin-top: 95px;
+  background-image: repeating-linear-gradient(
+    140deg,
+    white,
+    white 20px,
+    rgb(215, 225, 255) 22px,
+    rgb(215, 225, 255) 23px
+  );
+  padding: 20px 5px 20px 5px;
+  border: 1px solid rgb(215, 227, 255);
+  border-radius: 20px;
+}
+
+.weekly_creation_cards {
+  padding: 5px;
+}
+
+.creation_card {
+  padding: 15px 0px 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.08) 4.2px 12.2px 12.2px;
+}
+
+.card_para {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(50, 52, 132);
+}
+
+/* Row 3 */
+.new_arrival_table {
+  padding: 25px;
+  background: url(./Images/cartoon_chicken.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.arrival_table {
+  background: white;
+  padding: 14px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 25px, rgba(0, 0, 0, 0.2) 0px 5px 10px;
+}
+
+.happy_the_rock_1,
+.chicken_dance_1,
+.rock_the_floor_1 {
+  width: 50px;
+  height: 50px;
+}
+
+/* Row 4 */
+.latest_media_table {
+  background: white;
+  border-radius: 20px;
+}
+
+.latest_media_table_head {
+  background: rgb(216, 228, 255);
+  padding: 25px 0px 0px 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.table-head {
+  padding: 10px;
+}
+
+.latest_media_names {
+  text-align: center;
+  font-size: small;
+  color: rgb(50, 52, 132);
+}
+
+.fa-edit,
+.fa-share-alt {
+  font-size: smaller;
+  color: rgb(50, 52, 132);
+}
+
+/* Row 5 */
+.cards_row {
+  background: white;
+  border-radius: 25px;
+}
+
+.blocks {
+  background: rgb(206, 230, 174);
+  height: 200px;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+
+.block_1,
+.block_2,
+.block_3,
+.block_4,
+.block_5,
+.block_6,
+.block_7,
+.block_8,
+.block_9 {
+  background: rgb(159, 195, 112);
+  width: 55px !important;
+  box-shadow: rgba(100, 100, 111, 0.22) 6px 4px 10px 2px;
+}
+.block_1 {
+  margin-top: 135px !important;
+  height: 65px;
+}
+.block_2 {
+  margin-top: 115px !important;
+  height: 85px;
+}
+.block_3 {
+  margin-top: 100px !important;
+  height: 100px;
+}
+.block_4 {
+  margin-top: 90px !important;
+  height: 110px;
+}
+.block_5 {
+  margin-top: 75px !important;
+  height: 125px;
+}
+.block_6 {
+  margin-top: 60px !important;
+  height: 140px;
+}
+.block_7 {
+  margin-top: 40px !important;
+  height: 160px;
+}
+.block_8 {
+  margin-top: 20px !important;
+  height: 180px;
+}
+.block_9 {
+  margin-top: 0px !important;
+  height: 200px;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4 {
+  width: 130px;
+  height: 160px;
+  color: rgb(65, 68, 166);
+  font-size: large;
+  border-radius: 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  position: relative !important;
+  bottom: 50px;
+}
+
+.card_1 {
+  padding: 20px 0px 0px 0px;
+  background: rgb(255, 244, 222) !important;
+}
+.card_2 {
+  padding: 13px 0px 0px 0px;
+  background: rgb(238, 229, 255) !important;
+}
+.card_3 {
+  padding: 20px 0px 0px 0px;
+  background: rgb(255, 226, 230) !important;
+}
+.card_4 {
+  padding: 22px 0px 0px 0px;
+  background: rgb(201, 247, 245) !important;
+}
+
+.meme_img_1,
+.meme_img_4 {
+  width: 40px;
+  height: 40px;
+}
+.meme_img_2 {
+  width: 35px;
+  height: 50px;
+}
+.meme_img_3 {
+  width: 40px;
+  height: 50px;
+}
+
+/* Row 6 */
+.media_table {
+  background: white;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.sl_no,
+.date_time,
+.media {
+  font-size: smaller;
+  color: rgb(50, 52, 132);
+  text-align: center;
+}
+
+.share,
+.fa-trash-alt {
+  font-size: smaller;
+  color: rgb(50, 52, 132);
+  background: rgb(254, 244, 195);
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.share {
+  background: rgb(254, 244, 195);
+}
+
+.fa-trash-alt {
+  background: rgb(254, 195, 195);
+}
+
+.media_image {
+  width: 100%;
+  height: 50px;
+}
